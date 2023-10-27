@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Header from "../Shared/Header/Header";
 import NavBar from "../Shared/NavBar/NavBar";
 import { useContext } from "react";
@@ -9,6 +9,9 @@ import { AuthContext } from "../../Provider/AuthProvider";
 const Login = () => {
 
     const { signIn } = useContext(AuthContext);
+    const location = useLocation();
+    console.log(location);
+    const navigate = useNavigate();
 
 
 
@@ -29,6 +32,13 @@ const Login = () => {
             .then(result => {
 
                 console.log(result.user)
+
+
+                //navigate after login
+
+                navigate(location?.state ? location.state : '/');
+
+
             })
             .catch(error => {
                 console.error(error)
