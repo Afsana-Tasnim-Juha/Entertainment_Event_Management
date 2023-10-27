@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
 import Header from "../Shared/Header/Header";
 import NavBar from "../Shared/NavBar/NavBar";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 
 
+
 const Register = () => {
+    const [registerError, setRegisterError] = useState('');
+    const [success, setSuccess] = useState('');
 
     const { createUser } = useContext(AuthContext);
 
@@ -21,15 +24,44 @@ const Register = () => {
         console.log(name, photo, email, password);
 
 
+
+        //reset error
+
+        setRegisterError('');
+        setSuccess('');
+
+
+        if (password.length < 6) {
+            setRegisterError('The password is less than 6 characters');
+            return;
+        }
+        else if (!/[A-Z]/.test(password)) {
+            setRegisterError('The password do not have a capital letter');
+            return;
+        }
+        else if (!/[#?!@$%^&*-]/.test(password)) {
+            setRegisterError('The password do not have a special character');
+            return;
+        }
+
+
+
+
+
+
         //create user
 
         createUser(email, password)
             .then(result => {
 
-                console.log(result.user)
+                console.log(result.user);
+                setSuccess('successfully registered');
+
+
             })
             .catch(error => {
-                console.error(error)
+                console.error(error);
+                setRegisterError(error.message);
             });
     }
     return (
@@ -73,7 +105,16 @@ const Register = () => {
                     </div>
                 </form>
 
+
                 <p className=" text-center mt-4">Have an account? Please <Link className="text-blue-600 font-bold" to="/login">Login</Link> </p>
+                {
+                    registerError && <p className="text-red-600">{registerError}</p>
+                }
+                {
+                    success && <p className="text-green-600" >{success}</p>
+                }
+
+
 
             </div>
         </div>
