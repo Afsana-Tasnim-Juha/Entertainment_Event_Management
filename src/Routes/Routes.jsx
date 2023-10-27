@@ -8,6 +8,8 @@ import Contact from "../Page/Contact/Contact";
 import ServiceDetail from './../Page/ServiceDetail/ServiceDetail';
 import FAQ from "../Page/FAQ/FAQ";
 import Footer from "../Page/Shared/Footer/Footer";
+import ErrorPage from "../Page/ErrorPage/ErrorPage";
+import PrivateRoute from "./PrivateRoute";
 
 
 
@@ -15,6 +17,7 @@ const Routes = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
+        errorElement: <ErrorPage />,
 
         children: [
             {
@@ -30,7 +33,7 @@ const Routes = createBrowserRouter([
             },
             {
                 path: "/serviceDetails/:id",
-                element: <ServiceDetail></ServiceDetail>,
+                element: <PrivateRoute><ServiceDetail></ServiceDetail></PrivateRoute>,
                 loader: () => fetch('/event.json'),
 
             },
