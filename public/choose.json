@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "feature": "Expert Team",
+        "description": "Our team consists of highly skilled professionals with years of experience.",
+        "image": "https://i.ibb.co/SyjYFWV/creative-businesspeople-with-mobile-laptop-digital-tablet-working-together-office.jpg"
+    },
+    {
+        "id": 2,
+        "feature": "Innovative Solutions",
+        "description": "Providing cutting-edge and innovative solutions to meet your unique needs.",
+        "image": "https://i.ibb.co/GMwyrkg/top-view-idea-written-black-notepad-keyboard-lupa-binder-clip-light-bulb-calculator-dark.jpg"
+    },
+    {
+        "id": 3,
+        "feature": "Customer-Centric Approach",
+        "description": "Focus on customers. We listen, understand, and exceed expectations.",
+        "image": "https://i.ibb.co/K6RVR1q/collage-customer-experience-concept.jpg"
+    },
+    {
+        "id": 4,
+        "feature": "Timely Delivery",
+        "description": "Understanding the value of your time. We deliver on time without compromising quality.",
+        "image": "https://i.ibb.co/Vwk76Yt/expressive-young-man-posing-studio.jpg"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Summertime BBQ",
+        "image": "https://i.ibb.co/x3Q2Gmm/preparation-grilled-meat-barbecue-grill-wooden-background.jpg",
+        "price": 499.99,
+        "description": "Experience the nostalgia of a classic summertime BBQ with our mouthwatering menu and festive atmosphere. Gather your friends and family for a day of delicious grilled delights, refreshing drinks, and the sizzling sounds of the barbecue. Our expert chefs will craft a menu tailored to your preferences, ensuring a culinary experience that leaves everyone satisfied. Create lasting memories with this timeless and relaxed outdoor celebration.",
+        "button": "Book Now"
+    },
+    {
+        "id": 2,
+        "name": "Elegant Garden Soiree",
+        "image": "https://i.ibb.co/qJ3fZX9/waiter-hand-gloves-worker-is-engaged-serving-table.jpg",
+        "price": 799.99,
+        "description": "Host a sophisticated garden party with exquisite decor, gourmet cuisine, and elegant entertainment. Our team will transform your outdoor space into a botanical wonderland, adorned with twinkling lights and lush floral arrangements. Indulge in a culinary journey with our curated menu featuring fine wines, artisanal cheeses, and decadent desserts. Enjoy the company of your guests amidst the enchanting ambiance of an elegant garden soiree.",
+        "button": "Book Now"
+    },
+    {
+        "id": 3,
+        "name": "Retro Dance Party",
+        "image": "https://i.ibb.co/LN8qHwk/emotional-smiling-retro-loving-couple-dancing-near-disco-ball-1.jpg",
+        "price": 599.99,
+        "description": "Travel back in time with a retro dance party featuring vintage tunes, costumes, and a lively dance floor. Immerse yourself in the vibrant energy of bygone eras as our DJs spin the classics that will get everyone grooving. Dress up in your favorite retro attire and dance the night away in a nostalgic celebration of music, fashion, and good times. It's a retro experience that will transport you to a world of fun and funky beats.",
+        "button": "Book Now"
+    },
+    {
+        "id": 4,
+        "name": "Casino Royale Night",
+        "image": "https://i.ibb.co/0Xz9b1B/casino-roulette-wheel-close-up-ai-generative.jpg",
+        "price": 899.99,
+        "description": "Experience the glamour of a Casino Royale night with high-stakes games, gourmet dining, and a touch of luxury. Step into a world of sophistication and excitement as our professionally managed casino tables await your guests. Indulge in a culinary journey with our gourmet menu and sip on exquisite cocktails while trying your luck at the blackjack or roulette tables. It's an evening of elegance, entertainment, and the thrill of casino gaming.",
+        "button": "Book Now"
+    },
+    {
+        "id": 5,
+        "name": "Movie Under the Stars",
+        "image": "https://i.ibb.co/F8Pwh7j/young-friends-having-fun-cinema-open-air.jpg",
+        "price": 299.99,
+        "description": "Create magical moments with a movie night under the stars, complete with cozy blankets and delicious snacks. Our outdoor cinema setup brings the charm of classic movie nights to your event. Choose from a selection of blockbuster hits or timeless classics, and enjoy the cinematic experience under a blanket of twinkling stars. It's the perfect way to bring people together for a night of entertainment and shared enjoyment.",
+        "button": "Book Now"
+    },
+    {
+        "id": 6,
+        "name": "Tech Gaming Extravaganza",
+        "image": "https://i.ibb.co/4RrfbqG/medium-shot-smiley-woman-playing-videogame.jpg",
+        "price": 699.99,
+        "description": "Bring the latest gaming tech to your event with VR experiences, gaming tournaments, and futuristic fun. Dive into the world of cutting-edge technology with our gaming extravaganza. Whether you're a casual gamer or a competitive player, our event offers a variety of tech-powered experiences. From virtual reality adventures to high-stakes gaming tournaments, it's a tech lover's paradise. Elevate your event with the excitement and innovation of the Tech Gaming Extravaganza.",
+        "button": "Book Now"
+    }
+]
